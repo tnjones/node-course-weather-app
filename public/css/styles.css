@@ -1,0 +1,81 @@
+html {
+    color: #fff;
+    font: 14px "Garamond", san-serif;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+h1 {
+    font: 5rem "Montserrat";
+}
+
+h2 {
+    color: grey;
+    font-size: 3.5rem;
+}
+
+nav {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #3e3f3f;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+nav a {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+nav a:hover {
+    font-size: 1.25em;
+    color: grey;
+
+}
+
+p {
+    font: 1.5rem "Montserrat";
+    text-align: center;
+
+}
+
+input {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 6px;
+}
+
+button {
+    padding: 6px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    border: 1px solid #888;
+    background: #888;
+    color: #fff;
+}
+
+form {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #f3f3f3;
+}
