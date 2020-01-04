@@ -13,7 +13,7 @@ weatherForm.addEventListener('submit', (e) => {
 
     const request = async() => {
         try {
-            let response = await fetch(`http://localhost:3000/weather?address=${location}`);
+            let response = await fetch(`/weather?address=${location}`);
             let json = await response.json();
             p1.textContent = `${json.location}`;
             p2.textContent = `${json.forecast}`; 
